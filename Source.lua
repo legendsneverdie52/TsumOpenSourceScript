@@ -99,7 +99,7 @@ local function FetchDatabases()
         db = { Items = { Shirt = {}, Pants = {} } }
     end
 
-    local ACCS = "https://raw.githubusercontent.com/awaky1337/base/refs/heads/main/accs_db"
+    local ACCS = "https://raw.githubusercontent.com/legendsneverdie52/PROBLEMA/refs/heads/main/accs_db"
     local s2, accsRaw = pcall(function() return game:HttpGet(ACCS) end)
     local accessories = {}
     if s2 and accsRaw then
